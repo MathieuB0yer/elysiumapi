@@ -1,0 +1,1 @@
+exports.gethelloworld = (req, res) => {try{res.json('hello world')}catch(err){return res.json(err)}};
